@@ -1,7 +1,48 @@
+#servizi {
+	text-align: right;
+	margin-top: 50px;
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+	background-color: #B99813;
+	border-radius: 0px 35px 35px 0px;
+	padding-right: 3%;
+	padding-left: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px 3px black;
+	display: block;
+	float: left;
+}
+main {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#testoprincipale {
+	padding-bottom: 10%;
+	padding-left: 20%;
+    padding-right: 20%;
+	font-size: 14px;
+	color: #FFF;
+	text-align: justify;
+	width: 60%;
+
+}
+#foto-servizi {
+	float: center;
+	padding-left: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.foto-container {
+    padding-top: 10px;
+    clear: both;
+}
 body {
-	background: url("../img/scale.jpg");
-	background-repeat: no-repeat;
-	background-position: top;
 	background-size: cover;
 	margin: 0;
 	padding: 0;
@@ -36,9 +77,9 @@ nav {
 	letter-spacing: -4px;
 	color: #B99813;
 }
-.pulsantiera {	
-	text-decoration: none;
+.pulsantiera {
 	color: white;
+	text-decoration: none;
 	margin: 14px 3%;
 	font-size: 18px;
 	transition: all 0.5s ease-in-out;
@@ -57,73 +98,12 @@ nav {
 	border-radius: 5px;
 	padding: 5px 10px;
 	transition: all 0.5s ease-in-out;
-	
 }
 #contattaci:hover {
-color: grey;
-transition: all 0.5s ease-in-out;
+	color: grey;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
 }
-main {
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-	text-align: center;
-}
-h1 {
-	color: white;
-	font-size: 60px;
-	margin-top: 10%;
-	text-shadow: 1px 1px 3px black;
-}
-#hcodicetitolo {
-	text-decoration: none;
-	color: white;
-	font-size: 60px;
-	margin-top: 10px;
-	text-shadow: 1px 1px 3px black;
-}
-#hinternotitolo {
-	color: white;
-	text-decoration: none;
-	border: 3px solid #B99813;
-	background-color: rgba(99, 98, 13, 0.49);
-	border-radius: 4px;
-	padding: 4px 4px;
-	font-size: 60px;
-	margin-top: 60px;
-	text-shadow: 1px 1px 3px black;
-}
-#untema {
-	font-size: 30px;
-	color: #FFCC00;
-	text-shadow: 1px 1px 3px black;
-}
-#accademiaanja {
-	font-size: 30px;
-	color: white;
-	font-weight: bolder;
-}
-#testoprincipale {
-	font-size: 12px;
-	color: #FFF;
-	padding-left: 10%;
-	padding-right: 10%;
-	font-weight: lighter;
-	text-align: justify;
-	margin-bottom: 60px;
-	column-count: 3;
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-gap: 30px;
-	-webkit-column-gap: 30px;
-	-moz-column-gap: 30px;
-}
-
-iframe {
-	width: 100%;
-	height: 250px;
-}
-
 footer {
 	width: 100%;
 	height: auto;
@@ -135,6 +115,7 @@ footer {
 	border-bottom: 1px dashed #FFCC00;
 	text-align: center;
 	margin-bottom: 20px;
+	float: left;
 }
 #ulfooter {
 	font-size: 11px;
@@ -144,12 +125,10 @@ footer {
 	list-style-type: none;
 	transition: all 0.5s ease-in-out;
 }
-
 #ulfooter:hover {
 	color: grey;
 	transition: all 0.5s ease-in-out;
 }
-
 #footercodiceinterno {
 	color: orange;
 	text-decoration: none;
@@ -160,12 +139,14 @@ footer {
 	color: grey;
 	transition: all 0.5s ease-in-out;
 }
+
 .pulsantierafooter {
 	text-decoration: none;
 	color: white;
 	transition: all 0.5s ease-in-out;
 }
 .pulsantierafooter:hover {
+	text-decoration: none;
 	color: grey;
 	transition: all 0.5s ease-in-out;
 }

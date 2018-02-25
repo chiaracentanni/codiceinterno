@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CONTATTACI</title>
+		<link href="http://fonts.googleapis.com/css?family=Quicksand:700" rel='stylesheet' type='text/css'>
+		<link href='css/index-contattaci.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="index.html" id="codice">CODICE</a>
+				<a href="index.html" id="interno">INTERNO</a>
+				<a href="index-servizi.html" class="pulsantiera">SERVIZI</a>
+				<a href="index-chi-siamo.html" class="pulsantiera">CHI SIAMO</a>
+				<a href="index-progetti.html" class="pulsantiera">PROGETTI</a>
+				<a href="index-contattaci.html" id="contattaci">CONTATTACI</a>
+			</nav>
+		</header>
+		<main>
+		<span id="contatti">CONTATTACI</span>
+		<div class="foto-container">
+				<div id="formcontatti">
+					<form name="contatti" action="invioMail.php" autocomplete="on">
+						
+						<div id="formnome">
+							<label>Nome:</label>
+						</div>
+						
+						<div id="labelnome">
+							<input type="text" required placeholder="Scrivi il tuo nome" autocomplete="on" name="nome">
+						</div>
+						<div id="formcognome">
+							
+							<label>Cognome:</label>
+						</div>
+						
+						<div id="labelcognome">
+							<input type="text" required placeholder="Scrivi il tuo cognome" name="cognome">
+						</div>
+						<div id="formemail">	
+							<label>E-mail:</label>
+						</div>
+						<div id="labelemail">
+							<input type="email" required placeholder="Scrivi qui la tua email" autocomplete="on" name="email">
+						</div>
+						<div id="formtel">
+							
+							<label>Telefono:</label>
+						</div>
+						<div id="labeltel">
+							<input type="tel" placeholder="Inserisci il tuo numero di telefono" name="cell">
+						</div>
+						<div id="formmessaggio">
+							<div id="labelmessaggio">
+								<label>Messaggio:</label>
+							</div>
+							<textarea>
+							</textarea>
+						</div>
+						<br>
+						<span id="invia">
+							<input type="submit" value="INVIA">
+						</span>
+					</form>
+				</div>
+			</div>
+			</main>
+			<footer>
+				<ul id="ulfooter">
+					<li><a href="#" class="pulsantierafooter"></a></li>
+					<li><a href="index.html" id="footercodiceinterno">CODICE INTERNO</a> - | copyright2016 |</li>
+					<li><a href="index-servizi.html" class="pulsantierafooter">SERVIZI</a></li>
+					<li><a href="index-chi-siamo.html" class="pulsantierafooter">CHI SIAMO</a></li>
+					<li><a href="index-progetti.html" class="pulsantierafooter">PROGETTI</a></li>
+					<li><a href="index-contattaci.html" class="pulsantierafooter">CONTATTACI</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
